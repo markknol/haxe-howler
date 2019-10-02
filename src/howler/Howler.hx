@@ -41,7 +41,7 @@ extern class Howler {
 	 * @param  {Float} vol Volume from 0.0 to 1.0.
 	 * @return {Howler/Float} Returns self or current volume.
 	 */
-	static function volume(vol:Float):EitherType<Howler, Float>;
+	static function volume(?vol:Float):EitherType<Howler, Float>;
 
 	/**
 	 * Handle muting and unmuting globally.
